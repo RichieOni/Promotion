@@ -1,0 +1,55 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "PromotionContext",
+   "ContextNamespace": "Data",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "Models",
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "Backend.Promotion",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[PromotionDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PromotionHeader]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PromoType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Store]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ValueType]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "LAPTOP-C6H8971S.Promotion",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

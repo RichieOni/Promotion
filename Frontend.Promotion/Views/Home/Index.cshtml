@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+
+
+<!-- general form elements -->
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Promotion</h3>
+    </div>
+    <!-- /.card-header -->
+    <!-- form start -->
+    <form>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <!-- text input -->
+                    <div class="form-group">
+                        <label>Promo ID</label>
+                        <input type="text" class="form-control" placeholder="Promo ID" disabled>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Promo Description</label>
+                        <input type="text" class="form-control" placeholder="Max of 30 Characters">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <!-- textarea -->
+                    <div class="form-group">
+                        <label>Promo Type</label>
+                        <select class="form-control">
+                            <option>Simple Discount</option>
+                            <option>Completed Discount</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Promo Duration</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="far fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control float-right" id="reservation">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Value Type</label>
+                        <select class="form-control">
+                            <option>Percentage</option>
+                            <option>Amount</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Value</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">Items</label>
+                <div class="input-group">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                        <span class="input-group-text">Upload</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group" style="margin-top: -20px;">
+            <label style="margin-left: 20px;">Choose Store</label>
+            <partial name="../Home/_Table" />
+        </div>
+
+        <!-- /.card-body -->
+        <div class="card-footer">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="reset" class="btn btn-danger">Cancel</button>
+        </div>
+    </form>
+</div>
+<!-- /.card -->
+
+
